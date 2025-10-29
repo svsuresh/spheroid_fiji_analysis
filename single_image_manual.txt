@@ -1,0 +1,9 @@
+1. duplicate the image
+2. image > type > 8 bit
+3. Process > Filters > median > 5 pixels
+4. Process > Find edges
+5. Process > smooth
+6. image > adjust threshold > otsu and B & w or red
+7. Run the macro
+8. Process > make binar
+9. Analyze > analyze particles (select: Add to Manager”, “Display Results”, “Clear Results”, “Include Holes”, and show nothing)
