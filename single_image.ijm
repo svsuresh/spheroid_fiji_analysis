@@ -37,7 +37,7 @@ run("Set Measurements...", "area mean min centroid perimeter bounding fit shape 
 run("Measure");
 
 // Optional: Save the processed image
-// saveAs("Tiff", "/Users/kumar/Desktop/image/" + getTitle() + "_largest.tif");
+// saveAs("Tiff", "/Users/<user>/Desktop/image/" + getTitle() + "_largest.tif");
 
 // Optional: Save measurements
-// saveAs("Results", "/Users/kumar/Desktop/" + getTitle() + ".csv");
+// saveAs("Results", "/Users/<user>/Desktop/" + getTitle() + ".csv");
