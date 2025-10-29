@@ -51,7 +51,7 @@ roiManager("Measure");
 run("Collect Garbage");
 
 // Optional: Save the processed image
-// saveAs("Tiff", "/Users/kumar/Desktop/" + getTitle() + "_largest.tif");
+// saveAs("Tiff", "/Users/<user>/Desktop/" + getTitle() + "_largest.tif");
 
 // Optional: Save measurements
-// saveAs("Results", "/Users/kumar/Desktop/" + getTitle() + ".csv");
+// saveAs("Results", "/Users/<user>/Desktop/" + getTitle() + ".csv");
