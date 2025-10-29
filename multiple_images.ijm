@@ -2,10 +2,10 @@
 setBatchMode(true);
 
 // Define the directory containing images
-dir = "/Users/kumar/Desktop/test_images/";
+dir = "/Users/<user>/Desktop/test_images/";
 
 // Define output directory for largest particle images
-outDir = "/Users/kumar/Desktop/largest_particles/";
+outDir = "/Users/<user>/Desktop/largest_particles/";
 File.makeDirectory(outDir);  // Create directory if it doesn't exist
 
 // Get list of files in the directory
@@ -105,9 +105,9 @@ for (i = 0; i < list.length; i++) {
 
 // Save the results table as CSV
 if (nResults > 0) {
-    saveAs("Results", "/Users/kumar/Desktop/measurements.csv");
+    saveAs("Results", "/Users/<user>/Desktop/measurements.csv");
     run("Close");  // Close the Results table
-    print("Analysis complete! Results saved to: /Users/kumar/Desktop/measurements.csv");
+    print("Analysis complete! Results saved to: /Users/<user>/Desktop/measurements.csv");
     print("Total images processed: " + nResults);
 } else {
     print("No particles were found in any images.");
